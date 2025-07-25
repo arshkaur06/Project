@@ -7,7 +7,7 @@ if (!isset($_SESSION['admin'])) {
     exit;
 }
 
-// DB connection - replace with your actual connection if different
+
 $conn = new mysqli("localhost", "root", "", "computer_store");
 if ($conn->connect_error) {
     die("Database connection failed: " . $conn->connect_error);
@@ -114,7 +114,7 @@ $result = $conn->query($sql);
                 <?php
                 $currentOrderId = 0;
                 while ($row = $result->fetch_assoc()):
-                    // Optional: highlight or group rows by order ID if you want.
+                  
                 ?>
                 <tr>
                     <td><?= htmlspecialchars($row['order_id']) ?></td>

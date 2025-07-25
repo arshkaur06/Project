@@ -1,6 +1,6 @@
 <?php include './includes/header.php'; ?>
 
-<!-- Hero Section -->
+
 <section class="py-2 text-white" style="background: linear-gradient(to right, #1c1c1c, #2b5876);">
   <div class="container text-center">
     <h1 class="display-5 fw-bold">Online Computer Store</h1>
