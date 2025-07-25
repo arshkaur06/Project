@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "This is Project",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "sass --no-source-map scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arshkaur06"
+  },
+  "author": "Arshdeep Kaur",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "sass": "^1.89.2"
+  }
+}
